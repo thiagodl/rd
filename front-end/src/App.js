@@ -20,7 +20,7 @@ class App extends React.Component {
     console.log(requestOptions);
     fetch('http://localhost:8000/api/clients/' + e.target.id, requestOptions)
     .then(function() {
-      window.location.href = "http://localhost:3000/";
+      window.location.href = "/";
     });
   };
 

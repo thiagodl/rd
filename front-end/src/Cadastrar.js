@@ -26,7 +26,7 @@ function Cadastrar() {
     .then(res => res.json())
     .then(res => console.log(res))
     .then(function() {
-      window.location.href = "http://localhost:3000/";
+      window.location.href = "/";
     });
   };
 
